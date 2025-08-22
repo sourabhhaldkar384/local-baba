@@ -1,0 +1,493 @@
+/* ---------------- Global Styles ---------------- */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: hsl(240, 74%, 55%); /* Dark hacker background */
+  color: #00ff41; /* Classic neon green text */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff41;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #00ff41;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #934e21;
+  color: #0d0d0d;
+}
+
+/* ---------------- Login / Signup ---------------- */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
+}
+
+.login-card {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ff41;
+  width: 360px;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 15px;
+  color: #00ff41;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 0 0 5px #00ff41;
+}
+
+.login-subtitle {
+  margin-bottom: 20px;
+  color: #ff3d00; /* Red for offers */
+  font-weight: 600;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #00ff41;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-size: 14px;
+}
+
+.login-input::placeholder {
+  color: #00ff41;
+  opacity: 0.7;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #00ff41;
+  color: #0d0d0d;
+}
+
+/* ---------------- Global Styles ---------------- */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d; /* Dark hacker background */
+  color: #00ff41; /* Classic neon green text */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff41;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #00ff41;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00ff41;
+  color: #0d0d0d;
+}
+
+/* ---------------- Login / Signup ---------------- */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
+}
+
+.login-card {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ff41;
+  width: 360px;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 15px;
+  color: #00ff41;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 0 0 5px #00ff41;
+}
+
+.login-subtitle {
+  margin-bottom: 20px;
+  color: #ff3d00; /* Red for offers */
+  font-weight: 600;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #00ff41;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-size: 14px;
+}
+
+.login-input::placeholder {
+  color: #00ff41;
+  opacity: 0.7;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #00ff41;
+  color: #0d0d0d;
+}
+
+/* ---------------- Global Styles ---------------- */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0a0a0a; /* pure dark hacker background */
+  color: #00ff41;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff41;
+  transition: 0.3s;
+}
+a:hover {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #00ff41;
+  border-radius: 6px;
+  padding: 10px 16px;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ff41;
+  color: #0a0a0a;
+}
+
+/* ---------------- Login / Signup ---------------- */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
+}
+
+.login-card {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ff41;
+  width: 360px;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.login-title {
+  margin-bottom: 15px;
+  color: #00ff41;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 0 0 5px #00ff41;
+}
+
+.login-subtitle {
+  margin-bottom: 20px;
+  color: #ff3d00;
+  font-weight: 600;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #00ff41;
+  background-color: #0d0d0d;
+  color: #00ff41;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.login-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px #00ff41;
+}
+.login-input::placeholder {
+  color: #00ff41;
+  opacity: 0.7;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.login-button:hover {
+  background-color: #00ff41;
+  color: #0a0a0a;
+}
+
+/* ---------------- Dashboard Layout ---------------- */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+
+
+.signup-section {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.signup-link {
+  color: #00ff41;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.signup-link:hover {
+  color: #fff;
+  text-shadow: 0 0 6px #00ff41;
+}
+
+.signup-offer {
+  margin-top: 25px;
+  padding: 12px;
+  border: 1px solid #00ff41;
+  border-radius: 8px;
+  background: rgba(0, 255, 65, 0.05);
+  color: #00ff41;
+  font-size: 14px;
+  text-align: center;
+}
+.signup-offer span {
+  font-weight: bold;
+  color: #ff3d00;
+}
+
+
+
+/* Sidebar */
+.dashboard-sidebar {
+  width: 260px;
+  background: #111;
+  border-right: 1px solid #00ff41;
+  padding: 30px 20px;
+  box-shadow: 2px 0 10px rgba(0, 255, 65, 0.2);
+  position: relative;
+  z-index: 200;
+  transition: all 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center the content horizontally */
+}
+
+.dashboard-sidebar nav {
+  width: 100%; /* keep buttons full width inside */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center links inside nav */
+}
+
+.sidebar-link {
+  margin: 8px 0; /* space between buttons */
+  width: 90%; /* optional: shrink buttons a bit to look nice */
+  text-align: center; /* center text */
+}
+
+.sidebar-link:hover {
+  background-color: #00ff4133;
+  color: #00ff41;
+}
+.active-link {
+  background-color: #00ff4140;
+  color: #00ff41;
+  font-weight: bold;
+}
+
+.sidebar-footer {
+  margin-top: 40px;
+  border-top: 1px solid #00ff41;
+  padding-top: 15px;
+}
+
+/* Main area */
+.dashboard-main {
+  flex: 1;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 16px;
+  background: #111;
+  box-shadow: 0 0 20px rgba(0,255,65,0.15);
+  overflow-y: auto;
+}
+
+/* Navbar */
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d0d0d;
+  color: #00ff41;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,255,65,0.3);
+  margin-bottom: 25px;
+}
+
+/* Sections */
+.dashboard-section {
+  margin-bottom: 15px;
+}
+.dashboard-section h2 {
+  margin-bottom: 15px;
+  color: #00ff41;
+  font-weight: 600;
+  text-shadow: 0 0 6px #00ff41;
+}
+
+/* Room Grid */
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.room-card {
+  background: #0d0d0d;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,255,65,0.2);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.room-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,255,65,0.4);
+}
+.room-card h4 {
+  margin: 0 0 12px 0;
+  color: #00ff41;
+  font-size: 20px;
+}
+.room-card p {
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  color: #b3b3b3;
+}
+.room-card button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+}
+
+/* Sidebar responsive */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #00ff41;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .dashboard-sidebar {
+    position: fixed;
+    left: -260px;
+    top: 0;
+    height: 100%;
+    z-index: 300;
+  }
+  .dashboard-sidebar.open {
+    left: 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .dashboard-main {
+    margin: 10px;
+    padding: 15px;
+  }
+  .room-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .login-card {
+    width: 90%;
+    padding: 30px;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
